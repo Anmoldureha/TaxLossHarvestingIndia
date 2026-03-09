@@ -46,3 +46,8 @@ Visit `http://localhost:3000` to interact with the engine.
 
 ## Demo Mode Usage
 If you want to test the Optimization Engine without connecting a live broker, navigate to the **Upload CAS** tab on the web app and upload *any* dummy `.csv` file. The backend parser is currently rigged to catch this and return a mocked, highly complex portfolio structure designed specifically to showcase the STCG/LTCG Set-off Engine logic and the ₹1.25L Exemption limits.
+
+## Deploy to Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAnmoldureha%2FTaxLossHarvestingIndia&env=KITE_API_KEY,KITE_API_SECRET&envDescription=Zerodha%20API%20Keys%20for%20Live%20Execution&project-name=tax-harvest-india)
+
+This project is pre-configured with `vercel.json` to deploy **both** the Next.js Frontend and the Python FastAPI Backend automatically in a single click.
